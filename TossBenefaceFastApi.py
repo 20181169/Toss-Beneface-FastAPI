@@ -299,7 +299,7 @@ def get_connection():
     return pymysql.connect(
         host='db-aivle-bigproject.c16qqgc0i5qn.ap-northeast-2.rds.amazonaws.com',
         user='dev',
-        password='toss10jodev',
+        password='',
         database='toss_beneface',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -678,7 +678,7 @@ def get_connection():
     return pymysql.connect(
         host='db-aivle-bigproject.c16qqgc0i5qn.ap-northeast-2.rds.amazonaws.com',
         user='dev',
-        password='toss10jodev',
+        password='',
         database='toss_beneface',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -692,7 +692,7 @@ def get_connection_local():
     return pymysql.connect(
         host='127.0.0.1',
         user='yeji',
-        password='js000729',
+        password='',
         database='mydb',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
